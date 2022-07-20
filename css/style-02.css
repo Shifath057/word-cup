@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1100px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.mid_container{
+    width: 1100px;
+}
+/* css header part start */
+.headers{
+    background-color: black;
+    margin-bottom: 100px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+.header_content{
+    height: 350px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.head_title{
+    font-size: 40px;
+}
+.head_para{
+    margin-bottom: 30px;
+}
+.head_Ancor{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+/* css header part end */
+/* css mid part start */
+.mid_content{
+    display: flex;
+}
+.details{
+    color: black;
+    background-color: black;
+    width: 300px;
+    height: 230px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.detail_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.detail_blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin-bottom: 100px;
+}
+.team{
+    background-color: LightCyan;
+    height: 280px;
+    width: 280px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.team_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.team_img img{
+    margin: 10px;
+}
+.team_content{
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.team_cona{
+    margin-left: 35px;
+    font-size: 20px;
+}
+.team_conb{
+    font-size: 15px;
+    margin-left: 50px;
+}
+/* css mid part end */
+/* css footer part start*/
+footer{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+.footerh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+}
+hr{
+    width: 70%;
+    border-top: 1px solid blue;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    color: white;
+}
+.footi{
+    margin: 20px;
+    font-size: 15px;
+}
+/* css footer part end*/
